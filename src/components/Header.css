@@ -1,0 +1,36 @@
+nav {
+    height: 50px;
+    border: 1px solid #dfdfdf;
+}
+
+.nav-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-link {
+    height: 30px;
+    /* width: ; */
+    padding: 20px;
+    text-decoration: none;
+}
+
+.div-link.active{
+    height: 30px;
+    /* width: ; */
+    padding: 20px;
+    text-decoration: underline !important;
+}
+
+.nav-user {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    height: 30px;
+    padding: 0 20px;
+}

@@ -2,6 +2,7 @@ let users = {
   sarahedo: {
     id: 'sarahedo',
     name: 'Sarah Edo',
+    password: '123456',
     avatarURL: "https://tylermcginnis.com/would-you-rather/sarah.jpg",
     answers: {
       "8xf0y6ziyjabvozdd253nd": 'optionOne',
@@ -14,6 +15,7 @@ let users = {
   tylermcginnis: {
     id: 'tylermcginnis',
     name: 'Tyler McGinnis',
+    password: '123456',
     avatarURL: "https://tylermcginnis.com/would-you-rather/tyler.jpg",
     answers: {
       "vthrdm985a262al8qx3do": 'optionOne',
@@ -24,7 +26,32 @@ let users = {
   johndoe: {
     id: 'johndoe',
     name: 'John Doe',
+    password: '123456',
     avatarURL: "https://tylermcginnis.com/would-you-rather/dan.jpg",
+    answers: {
+      "xj352vofupe1dqz9emx13r": 'optionOne',
+      "vthrdm985a262al8qx3do": 'optionTwo',
+      "6ni6ok3ym7mf1p33lnez": 'optionTwo'
+    },
+    questions: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r'],
+  },
+  joudymsherif: {
+    id: 'joudymsherif',
+    name: 'Joudy M. Sherif',
+    password: '123456',
+    avatarURL: '/joudy.jpeg',
+    answers: {
+      "xj352vofupe1dqz9emx13r": 'optionOne',
+      "vthrdm985a262al8qx3do": 'optionTwo',
+      "6ni6ok3ym7mf1p33lnez": 'optionTwo'
+    },
+    questions: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r'],
+  },
+  msherif: {
+    id: 'msherif',
+    password: '123456',
+    name: 'Mohamed Sherif',
+    avatarURL: '/msherif.jpg',
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
       "vthrdm985a262al8qx3do": 'optionTwo',
