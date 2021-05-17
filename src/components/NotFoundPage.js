@@ -4,7 +4,7 @@ class NotFoundPage extends Component {
 
   render() {
     return (
-      <div className="not-found-page">
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
         <div className="not-found-title">
           <h1>404 Requested Page Not Found</h1>
         </div>

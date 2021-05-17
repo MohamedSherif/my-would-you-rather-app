@@ -41,8 +41,8 @@ class NewQuestion extends Component {
 
         const {optionOne, optionTwo } = this.state
         const { dispatch, authedUser } = this.props
-        console.log('Option One', optionOne)
-        console.log('Option Two', optionTwo)
+        // console.log('Option One', optionOne)
+        // console.log('Option Two', optionTwo)
         dispatch(handleAddQuestion({
             optionOneText: optionOne,
             optionTwoText: optionTwo,
@@ -100,7 +100,7 @@ class NewQuestion extends Component {
                             type='submit' 
                             variant='contained' 
                             color='primary' 
-                            disabled={optionOne === '' || optionTwo === ''}
+                            disabled={!(optionOne !== undefined && optionOne.trim().length > 0) || !(optionTwo !== undefined && optionTwo.trim().length > 0)}
                             style={{ 
                                 // width: 300,
                                 margin: '10px auto'

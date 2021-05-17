@@ -13,7 +13,7 @@ class Notifications extends Component {
     render() {
         const { notify } = this.props
         
-        console.log(notify)
+        // console.log(notify)
         
         return (
             <Snackbar

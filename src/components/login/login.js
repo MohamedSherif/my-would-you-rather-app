@@ -31,8 +31,8 @@ class Login extends Component {
     }
 
     handleUsernameChange = (e, values) => {
-        console.log('Event Value: ', e.target.value)
-        console.log('Values: ', values)
+        // console.log('Event Value: ', e.target.value)
+        // console.log('Values: ', values)
 
         this.setState(() => ({
             username: values? values.id : ''
@@ -53,13 +53,13 @@ class Login extends Component {
         const { dispatch, users } = this.props;
         
         if(users[username].password === password) {
-            console.log('Authorized')
+            // console.log('Authorized')
             dispatch(setAuthedUser(users[username]));
 
             this.setNotify (true, 'Signed In Successfully! ', 'success')
 
         } else {
-            console.log('Not Authorized')
+            // console.log('Not Authorized')
             
             this.setNotify (true, 'Authentication Error, Wrong Passwrod! ', 'error')
         }

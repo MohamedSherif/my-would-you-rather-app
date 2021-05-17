@@ -49,7 +49,7 @@ function Question(props) {
 
     const { authedUser, question, users, viewType, isAnswered, dispatch, questionId} = props
 
-    console.log('isAnswered: ', isAnswered)
+    // console.log('isAnswered: ', isAnswered)
 
     const classes = useStyles();
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Question from './Question';
 
+import NotFoundPage from './NotFoundPage'
+
 class SingleQuesion extends Component {
     constructor(props) {
         super(props);
@@ -24,7 +26,9 @@ class SingleQuesion extends Component {
         }
 
         return (
-            <Question authedUser={authedUser} users={users} question={question} viewType='single-view' isAnswered={isAnswered} dispatch={this.props.dispatch} questionId={questionId}/>
+            <div>
+                {question === null || question === undefined? <NotFoundPage /> : <Question authedUser={authedUser} users={users} question={question} viewType='single-view' isAnswered={isAnswered} dispatch={this.props.dispatch} questionId={questionId}/>}
+            </div>
         );
     }
 }

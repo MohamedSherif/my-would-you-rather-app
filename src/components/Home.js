@@ -19,8 +19,8 @@ class Home extends Component {
     filterQuestions = (isAnswered) => {
         const { authedUser, questions, users} = this.props
         
-        console.log('AuthedUser: ', authedUser )
-        console.log('Questions: ', questions )
+        // console.log('AuthedUser: ', authedUser )
+        // console.log('Questions: ', questions )
 
         const questionsArr = Object.values(questions);
 

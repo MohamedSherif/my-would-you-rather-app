@@ -7,7 +7,7 @@ import { logout } from '../actions/authedUser'
 
 export default function Header (props) {
   const { authedUser } = props
-  console.log('Authed User:', authedUser)
+  // console.log('Authed User:', authedUser)
   
   return (
     <nav>
