@@ -13,6 +13,7 @@ You can now start the application on your own browser on the following path http
 
 *   Select a user from the Users list and user the password '123456' to login.
 *   The landing page is the home page shows the available Questions (Answered / Un-Answerd), user can navigate between the answered and unanswered questions through the Navigation tab.
+*   Select a Question to View Poll result if answered and to Select your choise if not answered yet.
 *   Add New Question Tab to Add new question. Entering Option One and Option Two.
 *   Leaderboerd page is available to show the standing of all users. (User with the highest Answered and Asked questions is the WINNER),
 *   Logout to go to the Login Page.
